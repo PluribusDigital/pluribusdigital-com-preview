@@ -1,0 +1,12 @@
+# Builds a Ruby version pinned to match .ruby-version / Gemfile.lock, so the
+# container always matches what GitHub Pages actually builds. See Dockerfile.
+
+services:
+
+    jekyll:
+        build: .
+        ports:
+            - 4000:4000
+            - 35729:35729
+        volumes:
+            - .:/srv/jekyll
