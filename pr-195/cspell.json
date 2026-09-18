@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["html", "css", "software-terms"],
+  "words": [
+    "Pluribus",
+    "PluribusDigital",
+    "pluribusdigital",
+    "GovCon",
+    "Greenhouse",
+    "purgecss",
+    "Jekyll",
+    "GSA",
+    "SEWP",
+    "GWAC",
+    "IDIQ",
+    "CIO",
+    "DevSecOps",
+    "CMMI",
+    "CPFF",
+    "CPAF",
+    "CPIF",
+    "FFP",
+    "webmanifest",
+    "favicon",
+    "nav"
+  ],
+  "ignoreRegExpList": [
+    "^---[^]*?---",
+    "\\b[A-Z][a-z]+[A-Z]\\w*\\b"
+  ],
+  "ignorePaths": ["_site/**", "css/vendor/**", "css/build/**", "node_modules/**"]
+}
